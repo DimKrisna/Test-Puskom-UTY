@@ -1,0 +1,145 @@
+/* resources/css/app.css */
+
+/* Center the card in the middle of the page */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Card styling */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.text-center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 10px;
+    height: 50px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group-append .input-group-text {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-block {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.text-center span {
+    margin: 0 10px;
+    color: #777;
+}
+
+.text-center a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.text-center a:hover {
+    text-decoration: underline;
+}
+
+
+/* products */
+
+.container {
+    margin-top: 20px;
+}
+
+.filter-section {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.filter-section span {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #757575;
+}
+
+.filter-section a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #757575;
+}
+
+.filter-section a.active {
+    color: #007bff; /* Blue color for the active filter */
+}
+
+.filter-section a::after {
+    content: " • "; /* Dot separator between links */
+    color: #757575;
+}
+
+.filter-section a:last-child::after {
+    content: ""; /* Remove dot after the last link */
+}
+
+.filter-section a:hover {
+    color: #007bff; /* Hover effect for filters */
+}
+
+.signin-section {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+
+.signin-section {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.card {
+    margin-bottom: 20px;
+}
